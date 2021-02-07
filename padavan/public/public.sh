@@ -56,8 +56,8 @@ sed -i "/CONFIG_FIRMWARE_INCLUDE_WYYBIN/d" >> .config    # 删除配置项 网�
 
 # 科学
 echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config  # SS plus+
-echo "CONFIG_FIRMWARE_INCLUDE_SSSERVER=y" >> .config     # SS server
-echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=y" >> .config # simple-obfs混淆插件
+echo "CONFIG_FIRMWARE_INCLUDE_SSSERVER=n" >> .config     # SS server
+echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=n" >> .config # simple-obfs混淆插件
 
 #  代理
 echo "CONFIG_FIRMWARE_INCLUDE_SRELAY=n" >> .config       # SOCKS proxy
